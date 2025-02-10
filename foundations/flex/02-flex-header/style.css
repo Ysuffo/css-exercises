@@ -3,12 +3,28 @@
   background: papayawhip;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  flex-direction: row;
+  padding: 8px
+}
+
+  ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  font-family: 
 }
 
 ul {
@@ -23,3 +39,4 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
