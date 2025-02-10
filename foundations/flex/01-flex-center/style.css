@@ -5,6 +5,12 @@
   height: 300px;
 }
 
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
 .box {
   background: palevioletred;
   font-weight: bold;
@@ -12,4 +18,4 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
-}
+  }
